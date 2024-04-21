@@ -21,7 +21,7 @@ void generatePerfectNumbers(int N, int perfectNumbers[], int& size) {
 
     size = 0;
 
-    for (int i = 1; i < N; i++) {
+    for (int i = 1; i < N; i++) { 
 
         if (isPerfect(i)) {
 
